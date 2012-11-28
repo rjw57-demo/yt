@@ -200,7 +200,7 @@ class Ui(object):
                 self._status = 'No results for %s' % (self._feed['description'],)
 
             if self._ordering in self._ordering_names:
-                self._status += ' ordered by ' + self._ordering_names[self._ordering]
+                self._status += ' sorted by ' + self._ordering_names[self._ordering]
 
             # Update the screen with the new items
             self._update_screen()
